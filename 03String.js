@@ -36,3 +36,25 @@ var job = "Programmer";
 console.log(job.length); //Output 10,  there are 10 characters in the word "p r o g r a m m e r"
 
 //Bracket Notation to find a string first character
+// using their index
+var firstLetterOfFirstName = "";
+var firstName = "Ada";
+firstLetterOfFirstName = firstName[0];
+console.log(firstLetterOfFirstName);
+
+//Bracket Notation to find a string second character
+var secondLetterOfFirstName = "";
+var firstName = "Ada";
+secondLetterOfFirstName = firstName[1];
+console.log(secondLetterOfFirstName);
+
+//Bracket Notation to find a string last character
+var lastname = "Javascript";
+var lastLetterOfLastName = lastname[lastname.length - 1];
+console.log(lastLetterOfLastName); //output t
+
+//String Immutability
+var hey = "Jello World";
+hey[0] = "H";
+//This will throw an error, because strings are immutable, so it is best you do it as
+hey = "Hello world";
