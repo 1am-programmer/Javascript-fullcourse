@@ -16,7 +16,6 @@ console.log(howTrue(true));
 
 /*
 Comaprison operator with equality operator ==
-
 A single equal sign is an assignment operator
 */
 
@@ -50,7 +49,6 @@ console.log(10);
 //Output true because the value in num is 10, which is equal to 10
 
 // checking 10 and "10" using == and === operators"
-
 function testStrictEqual(num) {
   if (num === 10) {
     return true;
@@ -71,6 +69,6 @@ console.log(doubleEqual(10));
 
 /*
 here 10 is a number and "10" is a string
-==  returns true because it overlooks ithe string, but focuses on the number
+==  returns true because it overlooks the string, but focuses on the number
 === returns not equal because it does not overlook the string
 */
