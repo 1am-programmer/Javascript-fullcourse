@@ -56,5 +56,3 @@ function elseIfstatement(str) {
 
 console.log(elseIfstatement("Hi"));
 //Output Hey world, because the value of str (hi) is not equal to hello
-
-//Chaining if and else statements
