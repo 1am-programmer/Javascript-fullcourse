@@ -61,3 +61,12 @@ function identicalCase(day) {
   }
 }
 identicalCase(5);
+
+//Return Boolean from a function
+function isLess(x, y) {
+  return x > y;
+}
+console.log(isLess(7, 9));
+//Returns false because 7 is not greater than 9
+
+//Return early pattern from Functions
