@@ -26,4 +26,5 @@ console.log(newObj.key5); //Output Fifth value
 //We can also use bracket notation to delete a key and value from an object
 delete newObj["key5"];
 console.log(newObj.key5);
-//Output undefined , because the key5 has been removed
+
+//Objects can be used for lokups, by using it's key to get it's value
