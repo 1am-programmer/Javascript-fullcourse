@@ -43,7 +43,7 @@ in the for loop,
 
 - expression => index++ for every iteration of the loop, increment index by 1
 
-- const element = arr2[index]  which means element is reinitializing the items of the array to the values printed in the index ++ i.e 1-7
+- const element = arr2[index]  which means element is reinitializing the items of the array to the values printed in the index ++ i.e 2-7
 - and its been printed out in the console.log(element);
 
 - console.log(arr2)=> finally print out the arr 
