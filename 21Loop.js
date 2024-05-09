@@ -30,3 +30,30 @@ for (var i = 0; i < myArr.length; i++) {
 console.log(total); //Output: 20
 
 //NESTING FOR LOOPS
+function multiplyAll(arr) {
+  var product = 1;
+  for (var i = 0; i < arr.length; i++) {
+    //Checks the length of the main array
+    for (let j = 0; j < arr[i].length; j++) {
+      //Checks the length of subarray, at index i of the main array
+      product *= arr[i][j]; //[i] represents the outer array, [j] represents the inner array
+    }
+  }
+
+  return product;
+}
+var products = multiplyAll([
+  [1, 2],
+  [3, 4],
+  [5, 6, 7],
+]);
+
+console.log(products);
+//Output 5040 because it multiplies all items in the array
+
+//ITERATE WITH DO WHILE LOOP
+/*
+Difference between a while loop and a do while loop:
+A while loop:- checks the condition before it runs the code, while
+A do while loop, runs atleast once before it checks the condition
+*/
