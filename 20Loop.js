@@ -49,15 +49,20 @@ in the for loop,
 - console.log(arr2)=> finally print out the arr 
 */
 
-/*
-
- var arr2= [1, 2, 3, 4, 5, 6, 7, 8];: This line initializes an array arr with values from 1 to 8.
-The for loop iterates over each element in the arr array.
-let index = 0;: Initialize a variable index with value 0.
-index < arr.length;: The loop continues as long as index is less than the length of the array arr.
+/*var arr2 = [1, 2, 3, 4, 5, 6, 7, 8];: an array arr2 with values from 1 to 8.
+The for loop iterates over each element in the arr2 array.
+let index = 1;: Initialize a variable index with value 1.
+index < arr2.length;: The loop continues as long as index is less than the length of the array arr.
 index++: Increment index by 1 in each iteration.
-const element = arr2[index];: Inside the loop, it retrieves the element at the current index in the array arr and assigns it to a constant variable element.
-console.log(element);: It prints each element of arr to the console.
-After the loop finishes, console.log(arr2); prints the entire array arr to the console.
-So, when you run this code, you'll see each element of the arr array printed to the console individually, followed by the entire array printed again
+const element = arr2[index];: Inside the loop, it retrieves the element at the current index in the array arr2 and assigns it to a constant variable element.
+console.log(element);: It prints each element of arr2 to the console.
+After the loop finishes, console.log(arr2); prints the entire array arr2 to the console.
+So, when you run this code, you'll see each element of the arr2 array printed to the console individually, followed by the entire array printed again
 */
+
+var theArr = [1, 2, 3, 4, 5, 6, 7, 8];
+for (let j = 1; j < theArr.length; j++) {
+  const element = theArr[j];
+  console.log(element);
+}
+console.log(theArr);
