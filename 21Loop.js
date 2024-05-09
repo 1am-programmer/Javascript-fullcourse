@@ -54,6 +54,16 @@ console.log(products);
 //ITERATE WITH DO WHILE LOOP
 /*
 Difference between a while loop and a do while loop:
-A while loop:- checks the condition before it runs the code, while
+A while loop:- checks the condition before it runs any code within the loop, while
 A do while loop, runs atleast once before it checks the condition
 */
+
+var arr = [];
+var i = 10;
+
+do {
+  arr.push(i);
+  i++;
+} while (i < 5);
+console.log(i, arr);
+//Output i = 11, and arr is 10, because it first push i to the empty array, and the increments the i by 1, whch is 11 before checking the condition i <5
