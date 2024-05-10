@@ -33,3 +33,19 @@ e.g if you write a variable and don't declare it with var, let and const
 If a variable is declared with VAR, it is declared globally and can be used anywhere, or locally when it is declared inside in a function
 If a variable is declared with LET, it is declared locally and can only be used inside the block in which it is declared
 */
+
+//FOR VAR
+function checkScope() {
+  "use strict";
+  var i = "function scope";
+  if (true) {
+    var i = "block scope";
+    console.log("Block Scope i is ", i); //Output => Block scope is stll block scope
+  }
+  console.log("Function scope", i);
+  return i;
+}
+checkScope(); //Output => Function scope is stll block scope
+
+//FOR LET
+function checkBlock() {}
