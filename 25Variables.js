@@ -57,8 +57,3 @@ function checkBlock() {
   return j; //Output j is not defined, because it cannot be referrenced outisde the if statement
 }
 checkBlock();
-
-//CONST
-/*
-Const has all the attributes of let, but it cannot be reassigned
-*/
