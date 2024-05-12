@@ -1,5 +1,4 @@
-/*
-Arrow functions are shorter ways to represents function
+/*Arrow functions are shorter ways to represents function
 And are wriiten this way =()=>{
     //code
 }
@@ -18,10 +17,8 @@ console.log(anon(1, 2)); //Output 3
 
 //Higher order arrow functions
 
-/*
-When one function takes another function as an argument, that is a good time for an arrow function 
-Higher other functions involve map,filter,reduce
-*/
+/*When one function takes another function as an argument, that is a good time for an arrow function 
+Higher other functions involve map,filter,reduce */
 
 const numberArr = [4, 5.6, -9.8, 3.14, 0, 1, 2];
 
