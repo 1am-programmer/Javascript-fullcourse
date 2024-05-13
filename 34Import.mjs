@@ -22,3 +22,13 @@ import * as everythingObj from "./35Export.mjs";
  * Import * means everything in the file
  * Then you store it in an object, in our case, it is everythingObj
  */
+
+// When importing named export
+import { PI, double } from "./35Export.mjs";
+console.log(PI); // Output: 3.14
+console.log(double(5)); // Output: 10
+
+// When importing default export
+
+import greeting from "./35Export.mjs";
+console.log(greeting("Daniel")); // Output: Hello, Daniel!
