@@ -33,4 +33,6 @@ console.log(stats);
 console.log(half(stats));
 /*Instead of using the stat as the parameter of the function, which would have returned the whole data,
 we desructured it, selecting only the min and max datas in the object
+This is mostly used in API requests, where your API contains alot of data, most of which you do not need,
+so you can use the destructuring asignment to select the data you need
  */
