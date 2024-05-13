@@ -19,9 +19,14 @@ let car = {
     console.log(this.name + " " + this.model);
   },
   year: 2023,
+  //A shorter way of writing a function, than the one above
+  getExpiry(newDate) {
+    return (newDate = this.year + 50);
+  },
 };
 
 car.printDesc(); //A function in an object is called a method
+console.log(car.getExpiry()); //A function in an object is called a method
 
 //Nesting array of objects in an object
 const carInventory = {
