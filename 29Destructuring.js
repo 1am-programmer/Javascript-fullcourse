@@ -51,3 +51,19 @@ console.log(bestInMaths(nestedObj)); //Output 98
   => first you take maths out , then assign it to another curly brace
   => and then take the best out of the maths object and assign it to theBest variable
   */
+
+//Using Destructuring to assign variables from an array
+/*
+
+The difference between destructuring from an array and from an object is because you cannot specify
+ which element goes into the destructured variable, it goes in order, except is we use a [  , , ]
+ to skip the elements we don't want in the destructured variable 
+*/
+
+const [, b, c, , , f] = [1, 2, 3, 4, 5, 6];
+
+console.log(b, c, f); //Output 2 3 6
+/*
+Because we only represented 2,3,6 by alphabets and printed the alphabet, while 
+1,4,5 were represented by [ ,] and where filtered out
+*/
