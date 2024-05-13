@@ -38,11 +38,27 @@ So, in simple terms, we're creating a blueprint for cars called Car, and each ca
  *
  * Getters functions are simply meant to return or get the values of an object private variable to the user,
  * without the user directly accessing the private variable
+ * starting a variable name with underscore i.e _variableName signifies that the variable is private and should not be accessed outisde of the function
  */
-function makeClass() {
-  class Temperature {
-    constructor(temp) {
-      this._temp = 5 / 9(temp - 32); //  Fahrenheit to Celsius
-    }
+
+class Weather {
+  constructor(temp) {
+    this._temp = (5 / 9) * (temp - 32); //  Fahrenheit to Celsius
+  }
+  get temperature() {
+    return this._temp;
+  }
+  set temperature(updatedTemp) {
+    this._temp = updatedTemp;
   }
 }
+
+const newWeather = new Weather(78); //78 goes to the constructor
+//Getter
+let result = newWeather.temperature; //Which represents return this_temp
+
+//Setter
+newWeather.temperature = 26; //Updatedtemp = 26
+
+result = newWeather.temperature;
+console.log(result);
