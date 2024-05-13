@@ -30,5 +30,5 @@ console.log(double(5)); // Output: 10
 
 // When importing default export
 
-import greeting from "./35Export.mjs";
-console.log(greeting("Daniel")); // Output: Hello, Daniel!
+import defaultexport from "./35Export.mjs";
+console.log(defaultexport("Daniel")); // Output: Hello, Daniel!
