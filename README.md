@@ -12,9 +12,8 @@ This course covers the following topics:
 - Functions
 - Arrays
 - Objects
-- DOM Manipulation
-- Events
-- Asynchronous JavaScript (Callbacks, Promises, Async/Await)
+
+Also Learn [ARRAY METHODS IN JAVASCRIPT](https://github.com/1am-programmer/JS-ARRAY-METHODS)
 
 ## Getting Started
 
